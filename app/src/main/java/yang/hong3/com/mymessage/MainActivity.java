@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import yang.hong3.com.mymessage.adapter.MainViewpagerAdapter;
 import yang.hong3.com.mymessage.base.BaseActivity;
 
+//测试
 
 public class MainActivity extends BaseActivity {
 
