@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <yang.hong3.com.mymessage.customview.CircleProgressView
+        android:id="@+id/circle"
+        android:layout_width="match_parent"
+        app:matProg_barColor="#8907f6"
+        app:matProg_barSpinCycleTime="3000"
+        app:matProg_barWidth="5dp"
+        app:matProg_circleRadius="140dp"
+        app:matProg_linearProgress="true"
+        app:matProg_rimColor="@color/colorAccent"
+        app:matProg_rimWidth="5dp"
+        app:matProg_progressIndeterminate="true"
+        app:matProg_spinSpeed="3000"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
